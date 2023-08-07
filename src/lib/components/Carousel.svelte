@@ -23,7 +23,10 @@
 		slidesToSroll: 1,
 		loop: true
 	};
-	let plugins = [Autoplay()];
+	const autoplayOptions = {
+		delay: 4000
+	};
+	let plugins = [Autoplay(autoplayOptions)];
 
 	const onInit = (event: any) => {
 		emblaApi = event.detail;
@@ -60,7 +63,7 @@
 	}
 
 	.embla__slide img {
-		transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+		transition: transform 0.75s cubic-bezier(0.165, 0.84, 0.44, 1);
 		object-fit: cover;
 		height: 100%;
 		width: 100%;
