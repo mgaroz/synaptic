@@ -1,5 +1,5 @@
 <script lang="ts">
-	import emblaCarouselSvelte from 'embla-carousel-svelte';
+	import emblaCarouselSvelte, { type EmblaCarouselType } from 'embla-carousel-svelte';
 	import Autoplay from 'embla-carousel-autoplay';
 	import img1 from '$lib/img/car0.webp';
 	import img2 from '$lib/img/car1.webp';
@@ -24,13 +24,13 @@
 
 	let plugins = [Autoplay(autoplayOptions)];
 
-	const onInit = (event: any) => {
+	const onInit = (event: CustomEvent<EmblaCarouselType>) => {
 		emblaApi = event.detail;
 	};
 </script>
 
 <section class="relative -z-0">
-	<div class="embla" use:emblaCarouselSvelte={{ options, plugins }} on:init={onInit}>
+	<div class="embla" use:emblaCarouselSvelte={{ options, plugins }} on:emblaInit={onInit}>
 		<div class="embla__container">
 			{#each items as { imageUrl, caption }}
 				<div class="embla__slide">
