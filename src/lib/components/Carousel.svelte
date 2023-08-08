@@ -35,7 +35,7 @@
 			{#each items as { imageUrl, caption }}
 				<div class="embla__slide">
 					<img loading="lazy" src={imageUrl} alt={caption} width="100%" height="100%" />
-					<div class="embla__button embla__button--prev">
+					<div class="embla__button embla__button--prev flex items-start">
 						<h1 class="text-4xl">Hello</h1>
 					</div>
 				</div>
