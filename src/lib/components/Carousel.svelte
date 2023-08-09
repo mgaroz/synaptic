@@ -35,8 +35,8 @@
 			{#each items as { imageUrl, caption }}
 				<div class="embla__slide">
 					<img loading="lazy" src={imageUrl} alt={caption} width="100%" height="100%" />
-					<div class="embla__button embla__button--prev flex items-start">
-						<h1 class="text-4xl">Hello</h1>
+					<div class="embla__button left-0 right-0 top-0 h-[100vh] border border-slate-800">
+						<h1 class="z-50 mx-auto w-[1160px] text-4xl text-white">Hello</h1>
 					</div>
 				</div>
 			{/each}
@@ -75,8 +75,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		top: 50%;
-		width: 1160px;
+		/* top: 50%; */
+		/* width: 1160px; */
 		/* transform: translateY(-50%); */
 		/* cursor: pointer; */
 		/* width: 3rem;
