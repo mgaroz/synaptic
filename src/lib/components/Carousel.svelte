@@ -37,6 +37,7 @@
 					<img loading="lazy" src={imageUrl} alt={caption} width="100%" height="100%" />
 					<div class="embla__button left-0 right-0 top-0 h-[100vh] border border-slate-800">
 						<h1 class="z-50 mx-auto w-[1160px] text-4xl text-white">Hello</h1>
+						<h2>subtitle</h2>
 					</div>
 				</div>
 			{/each}
