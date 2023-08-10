@@ -12,7 +12,6 @@
 	];
 
 	let emblaApi: EmblaCarouselType;
-	$: progress = emblaApi?.scrollProgress();
 
 	const options = {
 		slidesToSroll: 1,
@@ -44,7 +43,6 @@
 								<h1 class="text-8xl text-white">Hello</h1>
 								<p class="text-3xl">subtitle</p>
 								<a href="/" class="text-xl">Link</a>
-								<p>{progress}</p>
 							</div>
 							<div>
 								<h2>here</h2>

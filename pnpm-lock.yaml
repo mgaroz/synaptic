@@ -11,6 +11,9 @@ dependencies:
   embla-carousel-svelte:
     specifier: 8.0.0-rc11
     version: 8.0.0-rc11(svelte@4.1.2)
+  swiper:
+    specifier: ^10.1.0
+    version: 10.1.0
 
 devDependencies:
   '@sveltejs/adapter-auto':
@@ -2119,6 +2122,11 @@ packages:
       locate-character: 3.0.0
       magic-string: 0.30.2
       periscopic: 3.1.0
+
+  /swiper@10.1.0:
+    resolution: {integrity: sha512-E+wh+hcSbwlRfXuwBTclcOOikOjNdSF0a2Sdg3J4cIWtHO64A7SaLRfezfrJ67CW3GEc15AduYU2YKlElsjqsQ==}
+    engines: {node: '>= 4.7.0'}
+    dev: false
 
   /tailwindcss@3.3.3:
     resolution: {integrity: sha512-A0KgSkef7eE4Mf+nKJ83i75TMyq8HqY3qmFIJSWy8bNt0v1lG7jUcpGpoTFxAwYcWOphcTBLPPJg+bDfhDf52w==}
