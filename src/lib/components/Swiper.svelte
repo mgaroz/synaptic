@@ -23,9 +23,9 @@
 </script>
 
 <div class="flex">
-	<swiper-container class="relative h-[100vh] min-w-[100vw] flex-1 overflow-hidden">
+	<swiper-container class="relative h-[100vh] min-w-[100vw] flex-1 overflow-hidden" parallax={true}>
 		{#each items as { imageUrl, caption }}
-			<swiper-slide class="h-full">
+			<swiper-slide class="h-full" lazy="true">
 				<img
 					loading="lazy"
 					src={imageUrl}
@@ -34,6 +34,13 @@
 					height="100%"
 					class="h-full object-cover"
 				/>
+				<div
+					class="absolute left-10 top-40 z-10 w-full"
+					data-swiper-parallax="-25%"
+					data-swiper-parallax-duration={700}
+				>
+					<h1 class="text-4xl text-white">hello</h1>
+				</div>
 			</swiper-slide>
 		{/each}
 	</swiper-container>
