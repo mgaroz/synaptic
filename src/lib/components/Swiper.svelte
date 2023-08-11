@@ -40,7 +40,15 @@
 					data-swiper-parallax-duration={700}
 				>
 					<div class="flex w-full justify-between">
-						<h1 class="text-4xl text-white">hello</h1>
+						<div class="delay flex flex-col gap-2">
+							<h1 class="text-8xl text-white">Title</h1>
+							<p class="text-3xl">Subtitle</p>
+							<a href="/" class="text-xl">Link</a>
+						</div>
+						<div>
+							<div class="h-[50px] w-[50px] rounded-full border border-solid" />
+							<h2>here</h2>
+						</div>
 					</div>
 				</div>
 			</swiper-slide>
