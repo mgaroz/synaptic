@@ -35,11 +35,13 @@
 					class="h-full object-cover"
 				/>
 				<div
-					class="absolute left-10 top-40 z-10 w-full"
+					class="absolute left-0 right-0 top-0 z-10 mx-auto flex h-[100vh] w-[1160px] flex-col items-start justify-center"
 					data-swiper-parallax="-25%"
 					data-swiper-parallax-duration={700}
 				>
-					<h1 class="text-4xl text-white">hello</h1>
+					<div class="flex w-full justify-between">
+						<h1 class="text-4xl text-white">hello</h1>
+					</div>
 				</div>
 			</swiper-slide>
 		{/each}
