@@ -50,7 +50,9 @@
 			</swiper-slide>
 		{/each}
 	</swiper-container>
-	<div class="absolute top-[50%] z-30 flex flex-col gap-4">
+	<div
+		class="absolute left-0 right-0 top-[50%] z-30 mx-auto flex w-[1160px] flex-col items-end gap-4"
+	>
 		<div
 			class="flex h-[50px] w-[50px] items-center justify-center rounded-full border border-solid"
 		>
