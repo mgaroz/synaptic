@@ -23,7 +23,11 @@
 </script>
 
 <div class="flex">
-	<swiper-container class="relative h-[100vh] min-w-[100vw] flex-1 overflow-hidden" parallax={true}>
+	<swiper-container
+		class="relative h-[100vh] min-w-[100vw] flex-1 overflow-hidden"
+		parallax={true}
+		autoplay={{ delay: 4000 }}
+	>
 		{#each items as { imageUrl, caption }}
 			<swiper-slide class="h-full" lazy="true">
 				<img
