@@ -26,7 +26,7 @@
 	<swiper-container
 		class="relative h-[100vh] min-w-[100vw] flex-1 overflow-hidden"
 		parallax={true}
-		autoplay={{ delay: 4000 }}
+		autoplay={{ delay: 4500 }}
 		navigation={true}
 	>
 		{#each items as { imageUrl, caption }}
