@@ -28,6 +28,7 @@
 		parallax={true}
 		autoplay={{ delay: 4500 }}
 		navigation={true}
+		style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
 	>
 		{#each items as { imageUrl, caption }}
 			<swiper-slide class="h-full" lazy="true">
@@ -55,7 +56,7 @@
 			</swiper-slide>
 		{/each}
 	</swiper-container>
-	<div class="absolute left-0 right-0 top-[50%] z-30 mx-auto flex flex-col items-end gap-4">
+	<!-- <div class="absolute left-0 right-0 top-[50%] z-30 mx-auto flex flex-col items-end gap-4">
 		<div
 			class="flex h-[50px] w-[50px] items-center justify-center rounded-full border border-solid"
 		>
@@ -84,5 +85,5 @@
 				/>
 			</svg>
 		</div>
-	</div>
+	</div> -->
 </div>
