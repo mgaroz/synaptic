@@ -11,15 +11,6 @@
 		{ imageUrl: img2, caption: 'Image 2' },
 		{ imageUrl: img3, caption: 'Image 3' }
 	];
-
-	const spaceBetween = 10;
-	const onProgress = (e: any) => {
-		const [swiper, progress] = e.detail;
-		console.log(progress);
-	};
-	const onSlideChange = (e: any) => {
-		console.log('slide changed');
-	};
 </script>
 
 <div class="flex">

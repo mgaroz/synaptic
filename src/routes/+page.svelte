@@ -2,6 +2,8 @@
 	import Header from '$lib/components/Header.svelte';
 	import Carousel from '$lib/components/Carousel.svelte';
 	import Swiper from '$lib/components/Swiper.svelte';
+	import Entry from '$lib/components/Entry.svelte';
+	import imageone from '$lib/img/car0.webp';
 </script>
 
 <header class="absolute left-0 right-0 top-6 z-10 mx-auto w-[1160px]">
@@ -10,8 +12,12 @@
 <main class="min-h-[100vh] bg-[#1A1924] text-white">
 	<!-- <Carousel /> -->
 	<Swiper />
-	<div id="body" class="pt-28">
-		<h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
-		<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+	<div id="body" class="mx-2 bg-[#1A1924] pt-28">
+		<div class="grid grid-cols-2 gap-2 bg-[#1A1924]">
+			<Entry image={imageone} />
+			<Entry image={imageone} />
+		</div>
+		<!-- <h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
+		<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> -->
 	</div>
 </main>
