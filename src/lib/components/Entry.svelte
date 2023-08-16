@@ -2,14 +2,14 @@
 	export let image: any;
 </script>
 
-<div class="relative">
+<div class="relative h-full">
 	<img
 		loading="lazy"
 		src={image}
 		alt="something"
 		class="absolute left-0 right-0 z-0 object-cover"
 	/>
-	<div class="absolute left-0 right-0 z-10 opacity-0 hover:opacity-100">
+	<div class="absolute bottom-0 left-0 z-10 h-full opacity-0 hover:opacity-100">
 		<p>Text one</p>
 		<p>
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro optio dolorum facere
