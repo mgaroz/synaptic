@@ -10,7 +10,7 @@
 		class="absolute left-0 right-0 z-0 object-cover"
 	/>
 	<div
-		class="absolute bottom-0 left-0 z-10 flex h-full flex-col items-end opacity-0 hover:opacity-100"
+		class="absolute bottom-0 left-0 z-10 flex h-full flex-col justify-end opacity-0 hover:opacity-100"
 	>
 		<p>Text one</p>
 		<p>
