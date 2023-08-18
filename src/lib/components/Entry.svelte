@@ -2,7 +2,7 @@
 	export let image: any;
 </script>
 
-<div class="group relative min-h-[4rem] min-w-[4rem]">
+<div class="group relative h-[14rem]">
 	<div class="relative h-full w-full overflow-hidden">
 		<img
 			loading="lazy"
@@ -13,7 +13,7 @@
 	</div>
 	<div class="absolute inset-0 z-10 h-full">
 		<div
-			class="flex h-fit flex-col justify-end bg-black bg-opacity-0 opacity-0 group-hover:bg-opacity-30 group-hover:opacity-100"
+			class="flex h-fit flex-col justify-end bg-black bg-opacity-0 opacity-0 duration-500 group-hover:bg-opacity-30 group-hover:opacity-100"
 		>
 			<p>Text one</p>
 			<p>
