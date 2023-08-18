@@ -2,11 +2,18 @@
 	export let image: any;
 </script>
 
-<div class="relative h-full w-full">
-	<div class="group absolute inset-0 flex h-full flex-col">
-		<img loading="lazy" src={image} alt="something" class="absolute inset-0 z-0 object-cover" />
+<div class="group relative min-h-[4rem] min-w-[4rem]">
+	<div class="relative h-full w-full overflow-hidden">
+		<img
+			loading="lazy"
+			src={image}
+			alt="something"
+			class="absolute inset-0 z-0 object-cover duration-500 group-hover:scale-150"
+		/>
+	</div>
+	<div class="absolute inset-0 z-10 h-full">
 		<div
-			class="absolute inset-0 z-10 flex h-full flex-col justify-end opacity-0 group-hover:opacity-100"
+			class="flex h-fit flex-col justify-end bg-black bg-opacity-0 opacity-0 group-hover:bg-opacity-30 group-hover:opacity-100"
 		>
 			<p>Text one</p>
 			<p>
