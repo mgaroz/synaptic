@@ -2,13 +2,13 @@
 	export let image: any;
 </script>
 
-<div class="group relative h-[14rem]">
+<div class="group relative h-[480px] overflow-hidden">
 	<div class="relative h-full w-full overflow-hidden">
 		<img
 			loading="lazy"
 			src={image}
 			alt="something"
-			class="absolute inset-0 z-0 object-cover duration-500 group-hover:scale-150"
+			class="absolute inset-0 z-0 scale-150 object-cover duration-500 group-hover:scale-100"
 		/>
 	</div>
 	<div class="absolute inset-0 z-10 h-full">
