@@ -2,18 +2,18 @@
 	export let image: any;
 </script>
 
-<div class="group relative h-[480px] overflow-hidden">
+<div class="group relative overflow-hidden md:h-[600px]">
 	<div class="relative h-full w-full overflow-hidden">
 		<img
 			loading="lazy"
 			src={image}
 			alt="something"
-			class="absolute inset-0 z-0 scale-150 object-cover duration-500 group-hover:scale-100"
+			class="absolute inset-0 z-0 h-full scale-150 object-cover duration-500 group-hover:scale-100"
 		/>
 	</div>
 	<div class="absolute inset-0 z-10 h-full">
 		<div
-			class="flex h-full flex-col justify-end bg-black bg-opacity-0 opacity-0 duration-500 group-hover:bg-opacity-30 group-hover:opacity-100"
+			class="flex h-full flex-col justify-end bg-black bg-opacity-0 p-2 opacity-0 duration-500 group-hover:bg-opacity-30 group-hover:opacity-100"
 		>
 			<p>Text one</p>
 			<p>
