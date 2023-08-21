@@ -13,7 +13,7 @@
 	</div>
 	<div class="absolute inset-0 z-10 h-full">
 		<div
-			class="flex h-full flex-col justify-end bg-black bg-opacity-0 p-2 opacity-0 duration-500 group-hover:bg-opacity-30 group-hover:opacity-100"
+			class="flex h-full flex-col justify-end bg-gradient-to-b from-transparent to-black p-2 opacity-0 duration-500 group-hover:bg-opacity-30 group-hover:opacity-100"
 		>
 			<p>Text one</p>
 			<p>
