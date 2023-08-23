@@ -33,8 +33,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"embla-carousel-autoplay": "8.0.0-rc11",
-		"embla-carousel-svelte": "8.0.0-rc11",
 		"swiper": "^10.1.0"
 	}
 }
