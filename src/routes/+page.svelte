@@ -5,6 +5,7 @@
 	import EntryPlain from '$lib/components/EntryPlain.svelte';
 	import imageone from '$lib/img/car0.webp';
 	import imagetwo from '$lib/img/car1.webp';
+	import imagethree from '$lib/img/car2.webp';
 </script>
 
 <header class="absolute left-0 right-0 top-6 z-10 mx-auto w-[1160px]">
@@ -17,8 +18,9 @@
 			<Entry image={imageone} />
 			<Entry image={imageone} />
 		</div>
-		<div class="grid grid-cols-2 gap-2 pt-2">
+		<div class="grid grid-cols-3 gap-2 pt-2">
 			<Entry image={imagetwo} />
+			<Entry image={imagethree} />
 			<EntryPlain />
 		</div>
 		<!-- <h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
