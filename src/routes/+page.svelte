@@ -23,16 +23,10 @@
 			<Entry image={imagethree} />
 			<EntryPlain />
 		</div>
-		<div class="grid grid-cols-7 gap-2 pt-2">
-			<div class="col-span-2">
-				<Entry image={imageone} />
-			</div>
-			<div class="col-span-2">
-				<Entry image={imagetwo} />
-			</div>
-			<div class="col-span-3">
-				<Entry image={imagethree} />
-			</div>
+		<div class="grid grid-cols-[28%_28%_44%] gap-2 pt-2">
+			<Entry image={imageone} />
+			<Entry image={imagetwo} />
+			<Entry image={imagethree} />
 		</div>
 		<!-- <h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
 		<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> -->
