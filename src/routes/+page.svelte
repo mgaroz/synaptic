@@ -25,8 +25,8 @@
 		</div>
 		<div class="grid grid-cols-[28%_28%_44%] gap-2 pt-2">
 			<Entry image={imageone} />
-			<Entry image={imagetwo} />
 			<Entry image={imagethree} />
+			<Entry image={imagetwo} />
 		</div>
 	</div>
 </main>
