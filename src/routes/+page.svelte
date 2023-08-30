@@ -14,7 +14,7 @@
 <main class="min-h-[100vh] bg-[#1A1924] text-white">
 	<Swiper />
 	<div id="body" class="mx-2 bg-[#1A1924] pt-28">
-		<div class="grid grid-cols-2 gap-2 bg-[#1A1924]">
+		<!-- <div class="grid grid-cols-2 gap-2 bg-[#1A1924]">
 			<Entry image={imageone} />
 			<Entry image={imageone} />
 		</div>
@@ -27,6 +27,17 @@
 			<Entry image={imageone} />
 			<Entry image={imagethree} />
 			<Entry image={imagetwo} />
+		</div> -->
+		<div class="flex w-full flex-row flex-wrap gap-2">
+			<Entry image={imageone} />
+			<Entry image={imagetwo} />
+			<Entry image={imagethree} />
+			<Entry image={imageone} />
+			<Entry image={imagetwo} />
+			<Entry image={imagethree} />
+			<Entry image={imageone} />
+			<Entry image={imagetwo} />
+			<EntryPlain />
 		</div>
 	</div>
 </main>
