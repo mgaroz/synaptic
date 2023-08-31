@@ -2,7 +2,7 @@
 	export let image: any;
 </script>
 
-<div class="group relative overflow-hidden md:h-[600px]">
+<div class="group relative overflow-hidden md:h-[600px] md:w-full">
 	<div class="relative h-full w-full overflow-hidden">
 		<img
 			loading="lazy"

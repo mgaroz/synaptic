@@ -28,7 +28,7 @@
 			<Entry image={imagethree} />
 			<Entry image={imagetwo} />
 		</div> -->
-		<div class="flex w-full flex-row flex-wrap gap-2">
+		<div class="flex flex-wrap gap-2">
 			<Entry image={imageone} />
 			<Entry image={imagetwo} />
 			<Entry image={imagethree} />
