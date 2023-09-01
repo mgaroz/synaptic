@@ -1,8 +1,10 @@
 <script lang="ts">
 	export let image: any;
+	let ws = ['50%', '25%', '33%'];
+	let random = Math.floor(Math.random() * ws.length);
 </script>
 
-<div class="group relative overflow-hidden md:h-[600px] md:w-full">
+<div class="group relative overflow-hidden md:h-[600px]" style="width: {ws[random]};">
 	<div class="relative h-full w-full overflow-hidden">
 		<img
 			loading="lazy"

@@ -6,6 +6,8 @@
 	import imageone from '$lib/img/car0.webp';
 	import imagetwo from '$lib/img/car1.webp';
 	import imagethree from '$lib/img/car2.webp';
+
+	let lengths = ['50%_50%', '25%_25%_50%', '33%_33%_33%', '30%_30%_40%', '50%_25%_25%'];
 </script>
 
 <header class="absolute left-0 right-0 top-6 z-10 mx-auto w-[1160px]">
@@ -28,7 +30,7 @@
 			<Entry image={imagethree} />
 			<Entry image={imagetwo} />
 		</div> -->
-		<div class="flex flex-wrap gap-2">
+		<div class="flex w-[100vw] flex-auto flex-wrap gap-2">
 			<Entry image={imageone} />
 			<Entry image={imagetwo} />
 			<Entry image={imagethree} />
