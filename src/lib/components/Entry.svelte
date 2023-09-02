@@ -2,9 +2,17 @@
 	export let image: any;
 	let ws = ['50%', '25%', '33%'];
 	let random = Math.floor(Math.random() * ws.length);
+	let lengths = [
+		'w-[50%_50%]',
+		'w-[25%_25%_50%]',
+		'w-[33%_33%_33%]',
+		'w-[30%_30%_40%]',
+		'w-[50%_25%_25%]'
+	];
+	let eles = ['w-1/2', 'w-1/3', 'w-1/4'];
 </script>
 
-<div class="group relative overflow-hidden md:h-[600px]" style="width: {ws[random]};">
+<div class="group relative overflow-hidden md:h-[600px] {eles[random]}">
 	<div class="relative h-full w-full overflow-hidden">
 		<img
 			loading="lazy"
@@ -26,3 +34,5 @@
 		</div>
 	</div>
 </div>
+
+<!-- save previous width in a variable and then deduce that from 100 to pick the next value making sure it doesn't exceed 100 -->
