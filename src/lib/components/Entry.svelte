@@ -10,16 +10,16 @@
 		'w-[50%_25%_25%]'
 	];
 	let eles = ['w-1/2', 'w-1/3', 'w-1/4'];
-	let possibleWidths = [25, 33, 50];
+	// let possibleWidths = [25, 33, 50];
 
-	function calc(width: number) {
-		let currentWidth = width;
-		let accumulatedWidth = 0;
+	// function calc(width: number) {
+	// 	let currentWidth = width;
+	// 	let accumulatedWidth = 0;
 
-		if (accumulatedWidth + currentWidth !== 100) {
-			accumulatedWidth = accumulatedWidth + currentWidth;
-		}
-	}
+	// 	if (accumulatedWidth + currentWidth !== 100) {
+	// 		accumulatedWidth = accumulatedWidth + currentWidth;
+	// 	}
+	// }
 </script>
 
 <div class="group relative overflow-hidden md:h-[600px] {eles[random]} flex-1 basis-1/4">
