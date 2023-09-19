@@ -22,7 +22,7 @@
 	// }
 </script>
 
-<!-- Need to randomize width on each iteration every time! for real@!! -->
+<!-- Need to randomize width on each iteration every time! for real!! -->
 
 <div class="group relative overflow-hidden md:h-[600px] {eles[random]} flex-1 basis-1/4">
 	<div class="relative h-full w-full overflow-hidden">
